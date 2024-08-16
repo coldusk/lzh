@@ -63,6 +63,6 @@ def detect_circles_and_colors(image_path):
     cv2.destroyAllWindows()
 
 # 调用函数，传入图片路径
-detect_circles_and_colors("C:\\Users\\24787\\Desktop\\1723774390461.jpg")
+detect_circles_and_colors("image_path")
 
 

@@ -51,4 +51,4 @@ def detect_and_mark_color_objects(image_path, color_type):
 
 
 # 调用函数，传入图片路径和颜色类型
-detect_and_mark_color_objects("C:\\Users\\24787\\Desktop\\1723777700678.jpg", "red")  # 颜色类型可以是 "red", "green", "blue"
+detect_and_mark_color_objects("image_path", "red")  # 颜色类型可以是 "red", "green", "blue"

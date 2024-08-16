@@ -26,6 +26,4 @@ def decode_qr_code(image_path):
 
 
 # 调用函数，传入图片路径
-decode_qr_code("C:\\Users\\24787\\Documents\\Tencent Files\\2478723753\\FileRecv\\MobileFile\\1723772857934.jpg")
-
-#"C:/Users/24787/Documents/Tencent Files/2478723753/FileRecv/MobileFile/IMG20240816093852.jpg"
+decode_qr_code("image_path")
