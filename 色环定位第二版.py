@@ -21,9 +21,6 @@ def detect_color_contours(image, lower_hsv, upper_hsv):
 def detect_color(image_path, color_type):
     # 读取图像
     image = cv2.imread(image_path)
-    if image is None:
-        print("无法读取图像，请检查路径是否正确")
-        return
 
     # 定义HSV颜色范围（扩展范围）
     if color_type == 'red':
